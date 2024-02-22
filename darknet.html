@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>now story time</title>
+    <style>
+        @import url(' &quot;Hanalei Fill rev=2&quot');
+
+
+html, body {
+padding: 0;
+margin: 0;
+font-family:  '&quot;Hanalei Fill rev=2&quot';
+}
+
+#app {
+background: rgb(10,10,10);
+height: 100vh;
+width: 100%;
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: linear-gradient(rgba(10,10,10,.6),rgba(0,0,0,.9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px),
+    url('https://www.pushpendradwivedi.com/wp-content/uploads/2018/05/40c3356824ba7aaa51c1b808a782adc2-1.jpg');
+background-size: cover;
+background-position: center;
+z-index: 1;
+}
+
+#wrapper {
+text-align: center;
+}
+
+.sub {
+color: red;
+letter-spacing: 1em;
+font-size: 30px;
+font-family:'Eater', cursive;
+}
+
+/* Here's the meat and potatoes.*/
+
+/* Our mixin positions a copy of our text
+directly on our existing text, while
+also setting content to the appropriate
+text set in the data-text attribute. */
+
+
+.glitch {
+position: relative;
+color: white;
+font-size: 4em;
+letter-spacing: .5em;   font-family:'Eater', cursive;
+
+/* Animation provies a slight random skew. Check bottom of doc
+  for more information on how to random skew. */
+animation: glitch-skew 1s infinite linear alternate-reverse;
+}
+@import url('&quot;Special Elite rev=2&quot');
+
+html, body, h1 {
+padding: 0;
+margin: 0;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+text-align: center;
+}
+
+
+
+
+.new {
+    margin-top: -50px;
+    background-image:linear-gradient( rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://blogmedia.dealerfire.com/wp-content/uploads/sites/1150/2018/10/haunted-houses_b.jpg');
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.container {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    left: calc(50% - 300px);
+    display: flex;
+}
+
+.card {
+    display: flex;
+    height: 280px;
+    width: 200px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #2e3033;
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+}
+
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+}
+
+
+
+.title {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+
+
+
+  .bar {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 5px;
+    width: 150px;
+  }
+  
+  .emptybar {
+    background-color: #2e3033;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .filledbar {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: red;
+    background: linear-gradient(90deg, red 0%, black 65%, black 100%);
+    transition: 0.6s ease-out;
+  }
+  
+  .card:hover .filledbar {
+    width: 120px;
+    transition: 0.4s ease-out;
+  }
+  
+
+
+
+
+.button {
+    margin-top: 30px;
+    background-color:black;
+    border: none;
+    color: red;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 50px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .button-top span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css?family=Eater&display=swap');
+
+
+html, body, h1  {
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-align: center;
+  
+}
+
+  .dare h1 {
+      color: white;
+      font-family: 'Eater', cursive;
+      font-size: 50px;
+      letter-spacing: 20px;
+  }
+
+
+.dare {
+    background-color: red;
+    height: 100px;
+}
+
+
+
+.dare2 {
+    background-color: black;
+    height: 500px;
+}
+
+
+.drop {
+    position: relative;
+      width: 20px;
+      height: 20px;
+    top: -30px;
+    margin: 0 auto;
+      background: red;
+      -moz-border-radius: 20px;
+      -webkit-border-radius: 20px;
+      border-radius: 20px;
+    -moz-animation-name: drip;
+    -webkit-animation-name: drip;
+    animation-name: drip;
+    -moz-animation-timing-function: cubic-bezier(1,0,.91,.19);
+    -webkit-animation-timing-function: cubic-bezier(1,0,.91,.19);
+    animation-timing-function: cubic-bezier(1,0,.91,.19);
+    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+  
+  .drop:before {
+    content: "";
+    position: absolute;
+    width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 30px solid red;
+    top: -22px;
+    left: 0%;
+  }
+  
+  .wave {
+    position: relative;
+    opacity: 0;
+    top: 0;
+      width: 2px;
+      height: 1px;
+    border: red 7px solid;
+      -moz-border-radius: 300px / 150px;
+      -webkit-border-radius: 300px / 150px;
+      border-radius: 300px / 150px;
+    -moz-animation-name: ripple;
+    -webkit-animation-name: ripple;
+    animation-name: ripple;
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    margin: 175px auto;
+  }
+  
+  .wave:after {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    top: -5px;
+    left: -5px;
+      width: 2px;
+      height: 1px;
+    border: red 5px solid;
+      -moz-border-radius: 300px / 150px;
+      -webkit-border-radius: 300px / 150px;
+      border-radius: 300px / 150px;
+    -moz-animation-name: ripple-2;
+    -webkit-animation-name: ripple-2;
+    animation-name: ripple-2;
+    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    margin: 175px auto;
+    margin-top: 0px;
+  }
+  
+  @keyframes ripple {
+      from {
+        opacity: 1;
+      }
+      to {
+        width: 600px;
+        height: 300px;
+        border-width: 1px;
+        top: -100px;
+        opacity: 0;
+      }
+  }
+  
+  @keyframes ripple-2 {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+    100% {
+      width: 200px;
+      height: 100px;
+      border-width: 1px;
+      top: 100px;
+      left: 200px;
+    }
+  }
+  
+  @keyframes drip {
+      to {
+        top: 190px;
+      }
+  }
+
+  html, body, h1 {
+  padding: 0;
+  margin: 0;
+
+}
+
+
+
+
+.arrow-container {
+  display: block;
+  width: 100px;
+  height: 100px;  
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  
+}
+@import url("&quot;Special Elite rev=2&quot");
+* {
+box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.day-card {
+  width: 420px;
+  height: 340px;
+  margin: 1em;
+  perspective: 1500px;
+}
+.day-card .content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
+}
+
+.more {
+  display: none;
+}
+.more:checked ~ .content {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  border-radius: 6px;
+}
+.front .inner,
+.back .inner {
+  height: 100%;
+  display: grid;
+  padding: 1.5em;
+  transform: translateZ(80px) scale(0.94);
+}
+
+.front {
+  background-color: rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-position: center center;
+}
+.front:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 6px;
+  backface-visibility: hidden;
+  background: linear-gradient(40deg, rgba(207, 0, 15, 0.5), rgba(0, 0, 0, 0.5));
+}
+.front .inner {
+  grid-template-rows: 5fr 1fr 1fr 2fr 1fr;
+  justify-items: center;
+}
+.front h2 {
+  grid-row: 2;
+  margin-bottom: 0.3em;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+.front .rating {
+  grid-row: 3;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.front .rating i {
+  margin: 0 1px;
+}
+
+.back {
+  transform: rotateY(180deg);
+  background-color: black;
+  border: 2px solid #f0f0f0;
+}
+.back .inner {
+  grid-template-rows: 1fr 2fr 1fr 2fr 14fr 1fr 1fr;
+  grid-template-columns: repeat(4, auto);
+  grid-column-gap: 0.8em;
+  justify-items: center;
+}
+.back .info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: red;
+  grid-row: 3;
+}
+.back .info:not(:first-of-type):before {
+  content: "";
+  position: absolute;
+  left: -0.9em;
+  height: 18px;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.back .info span {
+  font-size: 2em;
+  font-weight: 700;
+}
+.back .info i {
+  font-size: 1.2em;
+}
+.back .info i:before {
+  background: linear-gradient(40deg, red, #438af3);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.back .info .icon {
+  margin-left: 0.3em;
+}
+.back .info .icon span {
+  display: block;
+  margin-top: -0.25em;
+  font-size: 0.8em;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.back .description {
+  grid-row: 5;
+  grid-column: 1/-1;
+  font-size: 0.86em;
+  border-radius: 5px;
+  font-weight: 600;
+  line-height: 1.4em;
+  overflow: auto;
+  color: red;
+  padding-right: 10px;
+}
+.back .location,
+.back .price {
+  font-weight: 600;
+  color: red;
+  grid-row: 1;
+  font-size: 0.86em;
+}
+.back .location {
+  grid-column: 1/3;
+  justify-self: left;
+}
+.back .price {
+  grid-column: 3/-1;
+  justify-self: right;
+}
+.back .button {
+  grid-column: 1/-1;
+  justify-self: center;
+}
+
+.button {
+  grid-row: -1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  padding: 0 1.5em;
+  height: 3em;
+  line-height: 2.9em;
+  min-width: 3em;
+  background-color: transparent;
+  border: solid 2px #fff;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  left: 50%;
+  backface-visibility: hidden;
+  transition: 0.3s ease-in-out;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.button:hover {
+  background-color: #fff;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  text-shadow: none;
+  color: red;
+}
+.button.return {
+  line-height: 3em;
+  color: red;
+  border-color: red;
+  text-shadow: none;
+}
+.button.return:hover {
+  background-color: red;
+  color: #fff;
+  box-shadow: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff6666;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
+h2{color:red;}
+
+button
+{
+
+color: crimson;background-color: black;border: 3px solid red;border-radius: 15px; 
+font-size: 20px; font-family:'Eater', cursive; padding: 8px;  letter-spacing: 8px; 
+
+}
+.new h2
+{
+  font-family:'Eater', cursive;
+}
+
+.title h3
+  {
+  font-family:'Eater', cursive;
+  }
+
+  marquee{
+    color:red;
+    font-family:'Eater', cursive; ;
+  }
+</style>
+</head>
+<body>
+    <div id="app">
+        <div id="wrapper">
+            <h1 class="glitch" data-text="broadwitch">     CREEPY SCARY.....   </h1>
+        <span class="sub">THE SCARY HORRER STORY </span>
+      
+        </div>
+        <marquee behavior="" direction="left"> this is a novelty page designed to silly "horrer " done  in tv show  and movie  there no real stories going on . please be careful where and  how you see this </marquee>
+</div>
+
+
+
+
+<section class="new">
+    
+                
+<h2> NEW FOR 2022 </h2>
+
+<div class="container">
+    <div class="card">
+      <h3 class="title">Story 1</h3>
+      <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+        <button class=" button"><span>VIEW </span></button>
+      </div>
+    
+    </div>
+    <div class="card">
+      <h3 class="title"> Story 2</h3>
+      <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+          <button class=" button"><span>VIEW </span></button>
+      </div>
+      
+    </div>
+    <div class="card">
+      <h3 class="title"> story 3 </h3>
+      <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+        <button class=" button"><span>VIEW </span></button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 class="title">story 4</h3>
+      <div class="bar">
+        <div class="emptybar"></div>
+        <div class="filledbar"></div>
+        <button class=" button"><span>VIEW </span></button>
+      </div>
+  </div>
+</section>
+
+<section class="day-events new">
+
+    <h2> THE SORT STORY NO 1 </h2>
+  
+        <div class="wrapper">
+          <div class="day-card">
+            <input type="checkbox" id="card1" class="more" aria-hidden="true">
+        <div class="content">
+      <div class="front" style="background-image: url('https://blogmedia.dealerfire.com/wp-content/uploads/sites/1150/2018/10/haunted-houses_b.jpg')">
+          <div class="inner">
+            <h2>  You'll want to sleep with the lights on tonight.</h2>
+                            
+              <label for="card1" class="button" aria-hidden="true">
+                                    read it 
+                                </label>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <div class="info">
+                                    <span>2 </span>
+                                    <div class="icon">
+                                        <i class="bi bi-lightning"></i>
+                                        <span>▒▒▒▒▒▒</span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <span>0 </span>
+                                    <div class="icon">
+                                        <i class="fas fa-door-open"></i>
+                                        <span>▒▒▒▒▒▒</span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <span>2 </span>
+                                    <div class="icon">
+                                        <i class="fas fa-bed"></i>
+                                        <span>▒▒▒▒▒▒</span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <span>2 </span>
+                                    <div class="icon">
+                                        <i class="fas fa-bath"></i>
+                                        <span>▒▒▒▒▒▒</span>
+                                    </div>
+                                </div>
+                                <div class="description">
+                                  <h1>BY LILY HERMAN</h1>
+                                  <h1>The haunted middle school</h1>
+                                  <p>"My middle school was haunted by the ghost of Violet Sharp, a suspect in the Lindbergh Baby kidnapping. She was proved innocent after she hung herself in the maids' quarters. My school was the converted Morrow Estate (Charles Lindbergh married Ann Morrow in my math/drama classroom). But the third floor, the old maids' quarters, was the most haunted place in the school. You never wanted to be roaming around after hours in any of the school. Doors would open and close, lights would flicker. But there were offices on the third floor, and when you went up there down this one hallway, you would feel yourself suffocating, not 100%, but you felt it. Everyone has the same experience. And one time I was trespassing on another part of the campus with a group of friends one night, and we heard a choir of children — there 100% was no choir there." - Sam</p>
+                                  
+                                    <h1>the ghost Marvin</h1> 
+                                  <p>
+                                    "My family had a ghost named Marvin. When I was away at college, my dad moved into a new house and he and my sister immediately declared it was haunted. I remember my sister texting me throughout the semester, wide awake at 4 a.m., because she was freaked out. She and my dad named him Marvin as a joke, but it kind of stuck. Marvin was actually pretty polite. He would turn off the lights when we left them on. I remember my dad and sister skyping me, explaining the weird things that would happen. They would be watching a movie and Marvin would turn off the hallway lights and bathroom lights if they were left on. Sometimes he'd turn them back on, though, doing this multiple times throughout the movie or show. These lights weren't on a timer and they were the kind you had to push hard to turn off. My family decided it wasn't an electrical circuit malfunction because every time "Marvin" would turn off the lights you would hear the click as if someone has pushed the switch down. Once, while I was home alone one day during the summer I was pulling my hair into a ponytail in front of the front door mirror. Suddenly I heard a man's voice say clearly in my ear 'hello.' I whipped around and no one was there. I was really freaked out so I went for a run just to be out of the house and waited until my dad got home from lunch. We eventually moved and said goodbye to Marvin. I'm pretty sure he's still there." - Jamie
+                                  </p>
+
+                                </div>
+                                <div class="location">You'll want to sleep with the lights on tonight.</div>
+                                <div class="price">it is very creepy</div>
+                                <label for="card1" class="button return" aria-hidden="true">
+                                    <i class="fas fa-arrow-left"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+                
+    
+  <a href="#" class="arrow-container">
+    <div class="arrow"></div>
+    <div class="arrow"></div>
+    <div class="arrow"></div>  
+  </a>
+  
+</section> 
+<section class="dare">
+    <H1> thank you for read  </H1>
+  </section>
+
+  <section class="dare2">
+      <div class="drop"></div>
+      <div class="wave"></div>
+  </section>
+    <audio  id="myaudio" preload="none" controls="true" preload="none"><source src="https://cms-assets.tutsplus.com/uploads/users/2362/posts/32034/audio/20658_haunted-dark-soundscape-by-wexx_by_wexx_preview.mp3" type="audio/mpeg"><span>haaaaaaaaaaaaaa....</span></audio>
+    
+    <br /><br />
+<button  class="hi" onclick="toggle(this);">HIDDEN</button>
+
+<script>
+
+  let toggle = button => {
+    let element = document.getElementById("myaudio");
+      let hidden = element.getAttribute("hidden");
+
+      if (hidden) {
+        element.removeAttribute("hidden");
+        button.innerText = " HIDE ";
+      } else {
+        element.setAttribute("hidden", "hidden");
+        button.innerText = " BACK ";
+      }
+  }
+</script>
+</body>
+</html>
